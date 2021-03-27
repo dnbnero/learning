@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Task_Manager": {
+      "commandName": "Project",
+      "sqlDebugging": false,
+      "nativeDebugging": false
+    }
+  }
+}
