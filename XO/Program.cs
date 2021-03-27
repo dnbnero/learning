@@ -36,15 +36,15 @@ while (true)
         Console.ReadKey();
 
 
-    if ((pole1[0] == hod & pole1[1] == hod & pole1[2] == hod)^(pole2[0] == hod & pole2[1] == hod & pole2[2] == hod)^(pole3[0] == hod & pole3[1] == hod & pole3[2] == hod))
+    if ((pole1[0] == hod & pole1[1] == hod & pole1[2] == hod) ^ (pole2[0] == hod & pole2[1] == hod & pole2[2] == hod) ^ (pole3[0] == hod & pole3[1] == hod & pole3[2] == hod))
     {
         break;
     }
-    if (pole1[0] == hod & pole2[0] == hod & pole3[0] == hod^ pole1[1] == hod & pole2[1] == hod & pole3[1] == hod^ pole1[2] == hod & pole2[2] == hod & pole3[2] == hod)
+    if ((pole1[0] == hod & pole2[0] == hod & pole3[0] == hod) ^ (pole1[1] == hod & pole2[1] == hod & pole3[1] == hod) ^ (pole1[2] == hod & pole2[2] == hod & pole3[2] == hod))
     {
         break;
     }
-    if (pole1[0] == hod & pole2[1] == hod & pole3[2] == hod^ pole1[2] == hod & pole2[1] == hod & pole3[0] == hod)
+    if ((pole1[0] == hod & pole2[1] == hod & pole3[2] == hod) ^ (pole1[2] == hod & pole2[1] == hod & pole3[0] == hod))
     {
         break;
     }
