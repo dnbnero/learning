@@ -16,7 +16,7 @@ while (true)
     while (true)
     {
         VyvPole(pole1, pole2, pole3);
-        Hod(hod);
+        Console.WriteLine("Ходят " + hod);
         vyb = Convert.ToInt32(Console.ReadLine());
         switch (vyb)
         {
@@ -89,10 +89,6 @@ static void VyvPole(char[] pole1, char[] pole2, char[] pole3)
     foreach (char i in pole3)
         Console.Write(i + "\t ");
     Console.Write("\n\n\n\n");
-}
-static void Hod(char hod)
-{
-    Console.WriteLine("Ходят " + hod);
 }
 static int Pobeda(char[] pole1, char[] pole2, char[] pole3, char hod)
 {
